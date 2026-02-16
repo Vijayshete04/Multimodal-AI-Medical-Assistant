@@ -121,7 +121,7 @@ custom_css = """
 
 
 
-with gr.Blocks() as demo:
+with gr.Blocks(theme=gr.themes.Soft()) as demo:
 
         # Header with medical branding
 
@@ -210,20 +210,15 @@ with gr.Blocks() as demo:
 
 
     clear_btn.click(
-
-        lambda: [None, None, "", "", None],
-
+        lambda: (None, None, "", "", None),
+        inputs=None,
         outputs=[input_audio, input_image, stt_display, doctor_display, audio_display]
-
     )
-
 
 
 if __name__ == "__main__":
     # max_threads=1 is safer for Windows file operations
     demo.launch(
-        theme=gr.themes.Soft(),  # Moved here
-        css=custom_css,          # Moved here
-        debug=True, 
-        max_threads=10          # Increased to allow background communication
+    share=True,
+    show_error=True
     )
