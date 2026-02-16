@@ -1,0 +1,9 @@
+*.mp3
+*.wav
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.webp
+.env
+__pycache__/
