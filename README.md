@@ -19,7 +19,7 @@ An interactive medical assistant that combines **vision** and **voice** capabili
 
 You can access the live deployment of this AI Medical Bot on Hugging Face Spaces:
 
-[AI Medical Bot on Hugging Face Spaces](https://huggingface.co/spaces/AlokAhirrao/AI_MEDICAL_BOT)
+[AI Medical Bot on Hugging Face Spaces](https://huggingface.co/spaces/Vijayshete04/Multimodal-AI-Medical-Assistant)
 
 ---
 
