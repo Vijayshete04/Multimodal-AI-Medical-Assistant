@@ -1,3 +1,14 @@
+---
+title: Multimodal AI Medical Assistant
+emoji: ⚕️
+colorFrom: blue
+colorTo: red
+sdk: gradio
+sdk_version: 4.44.1
+app_file: gradio_app.py
+pinned: false
+---
+
 # AI Medical Bot
 
 An interactive medical assistant that combines **vision** and **voice** capabilities to provide medical insights. The bot can analyze medical images and respond to voice queries, delivering responses in both **text** and **voice** format.
